@@ -1,15 +1,7 @@
-import CommonButton from "../General/CommonButton";
-import CommonTitle from "../General/CommonTitle";
-
-export default function ({
-  children,
-  titles,
-  backgroundImage = true,
-  projects = false,
-}) {
+export default function ({ children, backgroundImage = true }) {
   return (
     <section
-      className="pt-36 bg-neutral-1000"
+      className="py-44 bg-neutral-1000"
       {...(backgroundImage && {
         style: {
           backgroundImage: `url(${process.env.NEXT_PUBLIC_CLOUDINARY_MEDIA_SERVER}/patterns/horizontal)`,
@@ -19,11 +11,7 @@ export default function ({
         },
       })}
     >
-      <div className="container mx-auto px-4">
-        <CommonTitle titles={titles} projects={projects} />
-        {children}
-        <CommonButton />
-      </div>
+      <div className="container mx-auto px-4">{children}</div>
     </section>
   );
 }
