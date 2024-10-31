@@ -1,0 +1,14 @@
+{
+  "btn": "START YOUR PROJECT NOW",
+  "contact_h1": "Our offices are open and happy to welcome you.",
+  "contact_p": "We believe in the power of collaboration and would love to speak to you about any and all aspects of design. Please come and visit us in the Headquarter office in Toronto, or contact us via the phone numbers and emails below.",
+  "empty_err": "can not be empty!",
+  "fs1_btn2": "SEND",
+  "fs1_input1": "Full Name *",
+  "fs1_input2": "Phone Number *",
+  "fs1_input3": "Contact Email *",
+  "fs1_input4": "Subject *",
+  "fs1_input5": "Your Message",
+  "layout_contact": "Contact Us",
+  "layout_home": "Home Page"
+}
